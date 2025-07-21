@@ -187,18 +187,27 @@ Sistema de herencia basado en prototipos en lugar de clases tradicionales.
 ## Ventajas de JavaScript
 
 ✅ **Fácil de aprender**: Sintaxis relativamente simple
+
 ✅ **Ejecución inmediata**: No requiere compilación
+
 ✅ **Multiplataforma**: Funciona en navegadores, servidores y dispositivos móviles
+
 ✅ **Gran comunidad**: Abundantes recursos y soporte
+
 ✅ **Evolución constante**: Mejoras regulares del lenguaje
+
 ✅ **Versatilidad**: Un lenguaje para múltiples propósitos
 
 ## Desventajas a Considerar
 
 ❌ **Tipado débil**: Puede llevar a errores en tiempo de ejecución
+
 ❌ **Diferencias entre navegadores**: Aunque cada vez menores
+
 ❌ **Seguridad**: Código visible al usuario en frontend
+
 ❌ **Rendimiento**: Más lento que lenguajes compilados para ciertas tareas
+
 
 ## Comenzando con JavaScript
 
