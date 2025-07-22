@@ -1,8 +1,8 @@
 // CRUD - Simple e JavaScript
-import createProduct from "./CRUD/create";
-import readProduct from "./CRUD/read";
-import deleteProduct from "./CRUD/delete";
-import updateProduct from "./CRUD/update";
+import createProduct from "./CRUD/create.js";
+import readProduct from "./CRUD/read.js";
+import deleteProduct from "./CRUD/delete.js";
+import updateProduct from "./CRUD/update.js";
 
 function main() {
     /* 
@@ -31,19 +31,23 @@ function main() {
         `);
         switch (userData) {
             case '1':
-                alert('agregar una nueva fruta o verdura.')
+                alert('agregar una nueva fruta o verdura.');
+                createProduct();
                 break;
 
             case '2':
                 alert('Ver todo el stock.')
+                readProduct();
                 break;
 
             case '3':
                 alert('acrtualizar el stock.')
+                updateProduct();
                 break;
 
             case '4':
                 alert('eliminar un producto.')
+                deleteProduct();
                 break;
 
             case '5':

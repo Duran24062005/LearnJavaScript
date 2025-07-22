@@ -1,5 +1,5 @@
-import { products } from "../db/products"
+import { products } from "../db/products.js"
 
 export default function createProduct() {
-    return true
+    alert('Hola mundo')
 };
