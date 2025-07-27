@@ -12,4 +12,4 @@ let apellido = variable;
 // tambien tienen un scope local
 const lastVar = 10;
 
-console.log(apellido + ' ' + lastVar);
+console.log(apellido + ' ' + lastVar); 
