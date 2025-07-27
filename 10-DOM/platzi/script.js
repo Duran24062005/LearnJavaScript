@@ -1,0 +1,4 @@
+// Leer nodos
+/* 
+    document.getElementById();
+*/
