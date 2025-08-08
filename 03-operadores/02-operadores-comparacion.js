@@ -30,11 +30,18 @@ console.log(4 < 4);
 // Menor o igual que <=
 console.log(4 <= 4);
 
-// Distinto qué !=, simple
+// Distinto qué !=, simple: solo se fija en valor no en el tipo de dato
+console.log('\n');
 console.log('\n');
 console.log('hola' != 'Hola');
 
-// Distinto qué !==, simple
+// Distinto qué !==, complejo: no solo se fija en el valor, sino también en el tipo de dato
+console.log('hola' !== 'Hola');
+console.log(5 !== '5');
+console.log(5 !== 5);
+console.log("5" !== "5");
+
+// Distinto qué !==, complejo: no solo se fija en el valor, sino también en el tipo de dato
 console.log('\n');
 console.log('hola' !== 'Hola');
 console.log(5 !== '5');
