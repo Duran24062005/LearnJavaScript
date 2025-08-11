@@ -20,7 +20,7 @@ function dinamycGreeting(name = "Persona desconocida") {
     return `Hellow ${name}`;
 }
 
-function dinamycGreeting(name) {
+function dinamycGreeting2(name) {
     let message;
     if (name === undefined) {
         message = "Persona desconocida";
